@@ -1,0 +1,8 @@
+{
+  "name": "SplitUp — Student Group Project Workspace",
+  "description": "A Discord-inspired collaborative workspace for college students to split group project tasks fairly, track contributions, manage deadlines, customize profiles, and manage room roles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
