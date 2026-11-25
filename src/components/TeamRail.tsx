@@ -35,11 +35,14 @@ export const TeamRail: React.FC<TeamRailProps> = ({
     >
       {/* Brand Mark */}
       <div
-        className="w-12 h-12 rounded-[16px] flex items-center justify-center font-display font-extrabold text-sm tracking-tight text-white mb-1 shadow-sm"
-        style={{ backgroundColor: 'var(--accent)' }}
+        className="w-12 h-12 rounded-[16px] overflow-hidden flex items-center justify-center mb-1 shadow-sm bg-white border border-[var(--border-subtle)]"
         title="SplitUp Student Workspace"
       >
-        SU
+        <img
+          src="/favicon.ico"
+          alt="SplitUp"
+          className="w-full h-full object-cover"
+        />
       </div>
 
       <div className="w-8 h-[1px] bg-[var(--border-subtle)] my-0.5" />

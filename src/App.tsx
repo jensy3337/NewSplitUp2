@@ -742,10 +742,14 @@ export default function App() {
         {/* Row 1: Rooms + Quick Actions */}
         <div className="flex items-center gap-2 px-3 py-2 overflow-x-auto">
           <div
-            className="w-8 h-8 rounded-lg flex items-center justify-center font-display font-extrabold text-xs text-white shrink-0"
-            style={{ backgroundColor: 'var(--accent)' }}
+            className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center shrink-0 bg-white border border-[var(--border-subtle)]"
+            title="SplitUp"
           >
-            SU
+            <img
+              src="/favicon.ico"
+              alt="SplitUp"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div className="flex items-center gap-1.5 flex-1 min-w-0 overflow-x-auto">
